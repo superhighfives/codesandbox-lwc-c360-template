@@ -1,7 +1,6 @@
-@import 'normalize.css';
+@import './preflight.css';
 @import 'lwc-c360-subsystem';
 
 :host {
     display: block;
-    font-family: var(--c360-g-font-family-sans);
 }

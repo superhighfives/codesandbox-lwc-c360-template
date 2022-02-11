@@ -40,7 +40,6 @@
         "eslint-plugin-inclusive-language": "^2.2.0",
         "lwc-c360-subsystem": "latest",
         "lwc-services": "^3.2.2",
-        "normalize.css": "^8.0.1",
         "prettier": "^2.5.1"
     }
 }

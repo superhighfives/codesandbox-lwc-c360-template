@@ -5240,11 +5240,6 @@ humps@^2.0.1:
   resolved "https://registry.yarnpkg.com/humps/-/humps-2.0.1.tgz#dd02ea6081bd0568dc5d073184463957ba9ef9aa"
   integrity sha1-3QLqYIG9BWjcXQcxhEY5V7qe+ao=
 
-husky@^7.0.4:
-  version "7.0.4"
-  resolved "https://registry.yarnpkg.com/husky/-/husky-7.0.4.tgz#242048245dc49c8fb1bf0cc7cfb98dd722531535"
-  integrity sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ==
-
 hyperlinker@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/hyperlinker/-/hyperlinker-1.0.0.tgz#23dc9e38a206b208ee49bc2d6c8ef47027df0c0e"
@@ -6569,10 +6564,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lwc-c360-subsystem@^0.0.0:
-  version "0.0.0"
-  resolved "https://registry.yarnpkg.com/lwc-c360-subsystem/-/lwc-c360-subsystem-0.0.0.tgz#d16f5a02c7841dce1d69a2f98b64887520634057"
-  integrity sha512-wWDdS+6Dg/+DQfmczxE02zcNhE/ai4CgMRzbkhO482E9jXWbsmqwhYZ//YFKLxSukijcExnWpthfQc3Qy6O9yQ==
+lwc-c360-subsystem@latest:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/lwc-c360-subsystem/-/lwc-c360-subsystem-0.0.1.tgz#024a58c9bc95d4bf019c77509f3ee11ffd5b019d"
+  integrity sha512-QCo/IR4jWubgorv86c5iNLF71uwOoeD4MJ/elclq03PQ8OtkcQekqLQLNiLfqMUIDYjXyRm/1i7IfURKmZOLmQ==
 
 lwc-services@^3.2.2:
   version "3.2.2"
@@ -7020,11 +7015,6 @@ normalize-url@^4.1.0:
   version "4.5.1"
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
   integrity sha512-9UZCFRHQdNrfTpGg8+1INIg93B6zE0aXMVFkw1WFwvO4SlZywU6aLg5Of0Ap/PgcbSw4LNxvMWXMeugwMCX0AA==
-
-normalize.css@^8.0.1:
-  version "8.0.1"
-  resolved "https://registry.yarnpkg.com/normalize.css/-/normalize.css-8.0.1.tgz#9b98a208738b9cc2634caacbc42d131c97487bf3"
-  integrity sha512-qizSNPO93t1YUuUhP22btGOo3chcvDFqFaj2TRybP0DMxkHOCTYwp3n34fel4a31ORXy4m1Xq0Gyqpb5m33qIg==
 
 npm-run-path@^2.0.0:
   version "2.0.2"
