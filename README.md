@@ -1,8 +1,9 @@
 # lwc-c360-template
 
-Here will be some information about the app.
+This template is built to work with codesandbox.io. To generate a new codesandbox, visit:
+https://codesandbox.io/s/github/superhighfives/codesandbox-lwc-c360-template
 
-## How to start?
+## Running locally?
 
 Start simple by running `yarn watch` (or `npm run watch`, if you set up the project with `npm`). This will start the project with a local development server.
 
