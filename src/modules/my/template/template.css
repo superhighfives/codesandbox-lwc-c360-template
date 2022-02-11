@@ -1,7 +1,7 @@
 @import '../css/common.css';
 
 :host {
-    box-shadow: var(--c360-g-shadow-2);
+    box-shadow: var(--c360-g-shadow-4);
     padding: var(--c360-g-spacing-4);
     border-radius: var(--c360-g-radius-border-3);
     max-width: 400px;

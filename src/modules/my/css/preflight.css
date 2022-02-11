@@ -24,12 +24,12 @@
 4. Use the user's configured `sans` font-family by default.
 */
 
-html {
+:host {
     line-height: 1.5; /* 1 */
     -webkit-text-size-adjust: 100%; /* 2 */
     -moz-tab-size: 4; /* 3 */
     tab-size: 4; /* 3 */
-    font-family: var(--c360-font-family-sans); /* 4 */
+    font-family: var(--c360-g-font-family-sans); /* 4 */
 }
 
 /*
@@ -103,7 +103,7 @@ code,
 kbd,
 samp,
 pre {
-    font-family: var(--c360-font-family-monospace); /* 1 */
+    font-family: var(--c360-g-font-family-monospace); /* 1 */
     font-size: 1em; /* 2 */
 }
 
