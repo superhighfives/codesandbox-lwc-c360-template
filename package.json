@@ -24,7 +24,6 @@
         "build": "lwc-services build -m production -b rollup",
         "build:development": "lwc-services build -b rollup",
         "lint": "eslint ./src/**/*.ts",
-        "postinstall": "husky install",
         "precommit": "npm run prettier:verify && [ $? -eq 0 ] && npm run lint",
         "prettier": "prettier --write \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
         "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
