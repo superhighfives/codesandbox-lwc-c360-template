@@ -6,8 +6,12 @@ module.exports = {
         { from: 'src/index.html', to: 'dist/' },
         { from: 'src/manifest.json', to: 'dist/' },
         {
-            from: 'node_modules/lwc-c360-subsystem/dist/**',
-            to: 'dist/resources/lwc-c360-subsystem'
+            from: 'node_modules/@salesforce-ux/c360-foundation/dist/font-face/**',
+            to: 'dist/resources'
+        },
+        {
+            from: 'node_modules/@salesforce-ux/c360-styling-hooks/dist/hooks.custom-props.css',
+            to: 'dist/resources'
         }
     ]
 };

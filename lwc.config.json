@@ -4,8 +4,16 @@
             "dir": "src/modules"
         },
         {
-            "name": "lwc-c360-subsystem/component",
-            "path": "./node_modules/lwc-c360-subsystem/dist/component.css"
+            "name": "@salesforce-ux/c360-foundation/typography",
+            "path": "./node_modules/@salesforce-ux/c360-foundation/dist/typography/typography.css"
+        },
+        {
+            "name": "@salesforce-ux/c360-foundation/utility",
+            "path": "./node_modules/@salesforce-ux/c360-foundation/dist/utility/utility.css"
+        },
+        {
+            "name": "@salesforce-ux/c360-grid",
+            "path": "./node_modules/@salesforce-ux/c360-grid/dist/index.css"
         }
     ]
 }

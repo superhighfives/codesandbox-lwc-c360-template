@@ -1,5 +1,8 @@
 @import './preflight.css';
-@import 'lwc-c360-subsystem/component';
+
+@import '@salesforce-ux/c360-foundation/typography';
+@import '@salesforce-ux/c360-foundation/utility';
+@import '@salesforce-ux/c360-grid';
 
 :host {
     display: block;

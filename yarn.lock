@@ -1960,6 +1960,41 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
+"@salesforce-ux/c360-foundation@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/c360-foundation/-/c360-foundation-0.1.5.tgz#dca486c80583b405a20423cb2ec526743f448ab9"
+  integrity sha512-bKfJ5Uusg9zgXWRzcrHLRukf1QqQqN4vX+pJmRxmTJzZWzP+SgxFP6Ll5OwD3vw8boVd6TKat6dYAq2o7rwBaw==
+
+"@salesforce-ux/c360-grid@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/c360-grid/-/c360-grid-0.1.5.tgz#efe0d4ac80a459f4a8154615c03dae0f3812e192"
+  integrity sha512-TT+LUDZxun+uixXtn33AEdlkyFAKVmZksWZ9I+dr5PlAtQsvGVivTwaBB2O3H1XyJ8S5me03oQnHuPorKkvdgQ==
+  dependencies:
+    "@salesforce-ux/sds-grid" "^0.2.7"
+
+"@salesforce-ux/c360-styling-hooks@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/c360-styling-hooks/-/c360-styling-hooks-0.2.2.tgz#add959d1c409c4e2af9e7bc6407e0af1e790a8c3"
+  integrity sha512-3sN0/OxnamlFTsQaL4uo8rHEBQSXt+cH34AjrMUdDXqXx8JJRNliI9qxd6t/UGhSfns/M2NPrExLyKLIo65YrA==
+  dependencies:
+    "@salesforce-ux/sds-styling-aliases" "^0.2.0"
+    "@salesforce-ux/sds-styling-hooks" "^0.7.0"
+
+"@salesforce-ux/sds-grid@^0.2.7":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/sds-grid/-/sds-grid-0.2.8.tgz#2d44cc962946c40924e9ecfd8ba61bf5cbc8816c"
+  integrity sha512-DY1T6UxbsUulAuR18pzjqqhToUDP5rsysgHBPBfERx2OexFQEgGbO8aKgmT63EafT8Tax+LXe06na5IxjDFpSw==
+
+"@salesforce-ux/sds-styling-aliases@^0.2.0":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/sds-styling-aliases/-/sds-styling-aliases-0.2.3.tgz#3c5f494b58756798da98ddcc2ae7e403e8fa3a85"
+  integrity sha512-M6riDnVx19FN2s7Q+OFs6EyED3q/ssR8bsY3H2QKB8WNUEOOdRFw26pAU7SmWr/WSiTdQP5Z+u3iSUDJJWZqzw==
+
+"@salesforce-ux/sds-styling-hooks@^0.7.0":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@salesforce-ux/sds-styling-hooks/-/sds-styling-hooks-0.7.1.tgz#b8ebc0b62d192ae6c651adcbcf2ddf081951098e"
+  integrity sha512-1OEGGmZlByzyiPZslEyb9KKGhbk2LQOOykzhRreFAucyAdU8fj5er1uPY7xvDpvD3tAIQh5+JcV7HvqPw7um5w==
+
 "@salesforce/eslint-config-lwc@~2.0.0":
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@salesforce/eslint-config-lwc/-/eslint-config-lwc-2.0.0.tgz#916d9a0eafe99a0c8ad026aedeaf89c269962552"
