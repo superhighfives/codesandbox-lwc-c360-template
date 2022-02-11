@@ -35,9 +35,9 @@
         "watch": "lwc-services watch -b rollup"
     },
     "devDependencies": {
-        "@salesforce-ux/c360-foundation": "^0.1.5",
-        "@salesforce-ux/c360-grid": "^0.1.5",
-        "@salesforce-ux/c360-styling-hooks": "^0.2.2",
+        "@salesforce-ux/c360-foundation": "latest",
+        "@salesforce-ux/c360-grid": "latest",
+        "@salesforce-ux/c360-styling-hooks": "latest",
         "@types/jest": "^27.4.0",
         "eslint": "^7.32.0",
         "eslint-plugin-inclusive-language": "^2.2.0",
