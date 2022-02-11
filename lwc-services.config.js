@@ -3,8 +3,11 @@
 module.exports = {
     resources: [
         { from: 'src/resources/**', to: 'dist/resources/' },
-
         { from: 'src/index.html', to: 'dist/' },
-        { from: 'src/manifest.json', to: 'dist/' }
+        { from: 'src/manifest.json', to: 'dist/' },
+        {
+            from: 'node_modules/lwc-c360-subsystem/dist/**',
+            to: 'dist/resources/lwc-c360-subsystem'
+        }
     ]
 };

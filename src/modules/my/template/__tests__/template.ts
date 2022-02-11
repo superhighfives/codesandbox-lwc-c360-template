@@ -7,25 +7,13 @@
 // https://github.com/trailheadapps/lwc-recipes-oss
 
 import { createElement } from 'lwc';
-import MyApp from 'my/app';
+import MyTemplate from 'my/template';
 
-describe('my-app', () => {
+describe('my-template', () => {
     afterEach(() => {
         // The jsdom instance is shared across test cases in a single file so reset the DOM
         while (document.body.firstChild) {
             document.body.removeChild(document.body.firstChild);
         }
-    });
-
-    it('contains a link to the LWC documentation with target set to _blank', () => {
-        const element = createElement('my-app', {
-            is: MyApp
-        });
-        document.body.appendChild(element);
-
-        // Get link
-        const linkEl = element.shadowRoot.querySelector('a');
-
-        expect(linkEl.target).toBe('_blank');
     });
 });

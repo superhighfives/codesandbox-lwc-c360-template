@@ -2,6 +2,14 @@
     "modules": [
         {
             "dir": "src/modules"
+        },
+        {
+            "name": "lwc-c360-subsystem",
+            "path": "./node_modules/lwc-c360-subsystem/dist/index.css"
+        },
+        {
+            "name": "normalize.css",
+            "path": "./node_modules/normalize.css/normalize.css"
         }
     ]
 }
