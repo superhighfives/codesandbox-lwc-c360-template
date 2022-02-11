@@ -1,0 +1,46 @@
+{
+    "name": "lwc-c360-template",
+    "description": "A template for generating an LWC template that can use the c360-subsystem for quick prototyping",
+    "version": "0.0.1",
+    "author": "Charlie Gleason",
+    "bugs": "https://github.com/Charlie Gleason/lwc-c360-template/issues",
+    "dependencies": {
+        "compression": "^1.7.4",
+        "express": "^4.17.2",
+        "helmet": "^5.0.2"
+    },
+    "engines": {
+        "node": ">=10.13.0",
+        "npm": ">=6.4.1",
+        "yarn": ">=1.9.4"
+    },
+    "homepage": "https://github.com/Charlie Gleason/lwc-c360-template",
+    "keywords": [
+        "lwc"
+    ],
+    "license": "MIT",
+    "repository": "Charlie Gleason/lwc-c360-template",
+    "scripts": {
+        "build": "lwc-services build -m production -b rollup",
+        "build:development": "lwc-services build -b rollup",
+        "lint": "eslint ./src/**/*.ts",
+        "postinstall": "husky install",
+        "precommit": "npm run prettier:verify && [ $? -eq 0 ] && npm run lint",
+        "prettier": "prettier --write \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
+        "prettier:verify": "prettier --list-different \"**/*.{css,html,js,json,md,ts,yaml,yml}\"",
+        "start": "node scripts/server.js",
+        "test:unit": "lwc-services test:unit",
+        "test:unit:coverage": "lwc-services test:unit --coverage",
+        "test:unit:debug": "lwc-services test:unit --debug",
+        "test:unit:watch": "lwc-services test:unit --watch",
+        "watch": "lwc-services watch -b rollup"
+    },
+    "devDependencies": {
+        "@types/jest": "^27.4.0",
+        "eslint": "^7.32.0",
+        "eslint-plugin-inclusive-language": "^2.2.0",
+        "husky": "^7.0.4",
+        "lwc-services": "^3.2.2",
+        "prettier": "^2.5.1"
+    }
+}
