@@ -1,6 +1,6 @@
 # codesandbox-lwc-c360-template
 
-This repo was created to work with [codesandbox.io]. To generate a new codesandbox, visit the following URL and _Fork_ the template:
+This repo was created to work with [codesandbox.io](https://codesandbox.io). To generate a new codesandbox, visit the following URL and _Fork_ the template:
 https://codesandbox.io/s/github/superhighfives/codesandbox-lwc-c360-template
 
 ## Running locally?
